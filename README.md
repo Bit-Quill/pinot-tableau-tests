@@ -68,12 +68,12 @@ tablename = $dsName
 tablePrefix =
 tablePostfix =
 tablenameUpper = False
-tablenameLower = True
+tablenameLower = False
 bool_underscore = False
 fieldnameDate_underscore = False
-fieldnameLower = True
+fieldnameLower = False
 fieldnameUpper = False
-fieldnameNoSpace = True
+fieldnameNoSpace = False
 fieldnameLower_underscore = False
 fieldnameUnderscoreNotSpace = True
 
