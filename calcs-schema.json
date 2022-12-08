@@ -74,40 +74,58 @@
          "dataType":"BOOLEAN"
       },
       {
-         "name":"date0",
+         "name":"zzz",
          "dataType":"STRING"
+      }
+   ],
+   "dateTimeFieldSpecs": [
+      {
+         "name":"date0",
+         "dataType":"TIMESTAMP",
+         "format":"TIMESTAMP",
+         "granularity":"1:MILLISECONDS"
       },
       {
          "name":"date1",
-         "dataType":"STRING"
+         "dataType":"TIMESTAMP",
+         "format":"TIMESTAMP",
+         "granularity":"1:MILLISECONDS"
       },
       {
          "name":"date2",
-         "dataType":"STRING"
+         "dataType":"TIMESTAMP",
+         "format":"TIMESTAMP",
+         "granularity":"1:MILLISECONDS"
       },
       {
          "name":"date3",
-         "dataType":"STRING"
+         "dataType":"TIMESTAMP",
+         "format":"TIMESTAMP",
+         "granularity":"1:MILLISECONDS"
       },
       {
          "name":"time0",
-         "dataType":"TIMESTAMP"
+         "dataType":"TIMESTAMP",
+         "format":"TIMESTAMP",
+         "granularity":"1:MILLISECONDS"
       },
       {
          "name":"time1",
-         "dataType":"STRING"
+         "dataType":"TIMESTAMP",
+         "format":"TIMESTAMP",
+         "granularity":"1:MILLISECONDS"
       },
       {
          "name":"datetime0",
-         "dataType":"TIMESTAMP"
+         "dataType":"TIMESTAMP",
+         "format":"TIMESTAMP",
+         "granularity":"1:MILLISECONDS"
       },
       {
          "name":"datetime1",
-         "dataType":"STRING"
-      },
-      {
-         "name":"zzz",
-         "dataType":"STRING"
+         "dataType":"STRING",
+         "format":"SIMPLE_DATE_FORMAT|yyyy-MM-dd HH:mm:ss",
+         "granularity":"1:SECONDS"
       }
    ]
 }

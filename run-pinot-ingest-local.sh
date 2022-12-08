@@ -1,18 +1,18 @@
 #!/bin/bash
 
-mkdir /tmp/batters
+#mkdir /tmp/batters
 mkdir /tmp/calcs
 mkdir /tmp/staples
 
-mkdir /tmp/batters/rawdata
+#mkdir /tmp/batters/rawdata
 mkdir /tmp/calcs/rawdata
 mkdir /tmp/staples/rawdata
 
 # Batters
-cp batters-table-config.json /tmp/batters
-cp batters-schema.json /tmp/batters
-cp batters-ingestion-spec.yml /tmp/batters
-cp Batters.csv /tmp/batters/rawdata
+#cp batters-table-config.json /tmp/batters
+#cp batters-schema.json /tmp/batters
+#cp batters-ingestion-spec.yml /tmp/batters
+#cp Batters.csv /tmp/batters/rawdata
 #bin/pinot-admin.sh AddTable -tableConfigFile /tmp/batters/batters-table-config.json -schemaFile /tmp/batters/batters-schema.json -exec
 #bin/pinot-admin.sh LaunchDataIngestionJob -jobSpecFile /tmp/batters/batters-ingestion-spec.yml
 
