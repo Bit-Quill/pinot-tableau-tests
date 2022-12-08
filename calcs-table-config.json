@@ -10,7 +10,8 @@
       "invertedIndexColumns":[
 
       ],
-      "loadMode":"MMAP"
+      "loadMode":"MMAP",
+      "nullHandlingEnabled":true
    },
    "tenants":{
       "broker":"DefaultTenant",
